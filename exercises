@@ -1,0 +1,43 @@
+take the following input data
+[
+    {
+        "name": "John",
+        "type": "dog"
+    },
+        {
+        "name": "Sparky",
+        "type": "dog"
+    },
+        {
+        "name": "Nova",
+        "type": "cat"
+    },
+        {
+        "name": "Manuel",
+        "type": "dog"
+    },
+        {
+        "name": "Caesar",
+        "type": "cat"
+    },
+        {
+        "name": "Gill",
+        "type": "fish"
+    }
+]1. and group them by type
+ex:
+[
+    {
+        type: fish,
+        animals: ['Gill']
+    },
+    {
+        type: dog,
+        animals: ['Manuel', 'Sparky', 'John']
+    }, etc...
+]2. Given 2-3 animals that are in the list create an interesction of the list.
+ex: given manuel and gill, intersect with the list of animals. Some animals may NOT appear in both lists, handle that case!3. Given an array, generate a CSV representation of that array with a set of headers.
+ex:
+NAME, TYPE
+Gill, fish
+Manuel, dog4. Create a function that can only run once and throws if it gets called again.5. Create a function that is given a set of functions and a set of data which are inputs for those functions and returns the one that finished the fastest out of them, displaying ms time
